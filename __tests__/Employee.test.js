@@ -2,7 +2,6 @@ const Employee = require('../lib/Employee');
 
 // Creates Employee object
 test('Can create new Employee object', () => {
-    // Arrange Act Assert
     const employee = new Employee('Leah', 500, 'lnbredemeyer@gmail.com');
 
     expect(employee.name).toEqual(expect.any(String));
